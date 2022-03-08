@@ -7,3 +7,8 @@ tasks:
     command: npm run dev
 
 
+#automatically opens 3000 port on browser
+ports:
+  - port: 3000
+    onOpen: open-browser
+
